@@ -12,5 +12,5 @@ var numRand = Math.floor( Math.random() * max );
 console.log(numRand);
 
 //show images
-$('img').attr('src', eval('img' + numRand));
+//$('img').attr('src', eval('img' + numRand));
 
