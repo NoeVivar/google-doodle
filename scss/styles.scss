@@ -1,14 +1,14 @@
 @import'google-homepage';
 
 body{
-background: teal;
+background:none ;
 }
 
-#line{
+#pup{
    transform: scale(.5);
     transition: transform .5s;
 }
 
-#line:hover{
+#pup:hover{
     transform: scale(1.5);
 }
