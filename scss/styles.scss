@@ -3,12 +3,16 @@
 body{
 background:none ;
 }
-
 #pup{
-   transform: scale(.5);
-    transition: transform .5s;
+    height: 10em;
+    width: 20em;
+    position: absolute;
+    left: 300px;
+    top: 300px;
 }
 
-#pup:hover{
-    transform: scale(1.5);
+#crescent {
+    position: absolute;
+    left: 350px;
+    top: 300px;
 }
