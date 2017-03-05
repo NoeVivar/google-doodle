@@ -4,20 +4,29 @@ body{
 background:none ;
 }
 
-svg {
-  height: 100px;
-  width: 100px;
-}
+
 #Pup{
-    height: 10em;
+    height: 16em;
     width: 20em;
     position: absolute;
-    left: 300px;
-    top: 300px;
+    left: 350px;
+    top: 100px;
 }
 
 #crescent {
     position: absolute;
-    left: 350px;
-    top: 300px;
+    left: 400px;
+    top: 145px;
+}
+
+#cherry1{
+    position: absolute;
+    left: 165px;
+    top: 250px;
+}
+
+#cherry2{
+    position: absolute;
+    left: 300px;
+    top: 10px;
 }
