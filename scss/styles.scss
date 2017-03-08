@@ -4,29 +4,28 @@ body{
 background:none ;
 }
 
-
+#stage{
+  display: flex;
+}
 #Pup{
-    height: 16em;
+    justify-content: center;
+     height: 16em;
     width: 20em;
-    position: absolute;
-    left: 350px;
-    top: 100px;
 }
 
 #crescent {
-    position: absolute;
-    left: 400px;
-    top: 145px;
+  justify-content: center;
+    width:100%;
 }
 
 #cherry1{
-    position: absolute;
-    left: 165px;
-    top: 250px;
+  justify-content: flex-start;
+    flex-direction: column;
+    width:100%;
 }
 
 #cherry2{
-    position: absolute;
-    left: 700px;
-    top: 50px;
+   justify-content: flex-end;
+    flex-direction: row;
+    width:100%;
 }
