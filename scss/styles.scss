@@ -4,13 +4,37 @@
 
 
 // First Frame
-svg{
-    width: 600px;
-    height: 400px;
+
+.pup{
+   position: absolute;
+    transform: none;
+    transition: transform .5s;
+    opacity: 1;
+    bottom: 60px;
+    left: 180px
 }
 
-img {
-    
+.pup:hover{
+    transform: scale(1.5) rotate(0deg);
+}
+
+
+#crescent{
+    position: absolute;
+    width: 100%;
+    transform: none;
+    transition: transform .5s;
+    opacity: 1;
+    bottom: 30px;
+    left: 180px
+}
+
+#crescent:hover{
+    transform: scale(1.5) rotate(0deg);
+}
+
+
+img  {
     opacity: .5;
     transform: scale(.25) rotate(0);
     width: 40%;
@@ -23,6 +47,20 @@ img:hover {
     opacity: 1;
     transform: scale(1.5) rotate(180deg);
 }
+
+#cherry1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cherry2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
 
 // First Frame
 .line {
