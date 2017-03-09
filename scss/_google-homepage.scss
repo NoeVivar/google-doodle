@@ -1,6 +1,8 @@
 /* Stage */
 
 #stage {
+    display: flex;
+    flex-wrap: wrap;
     background: red;
     height: 20em;
     width: 40em;
