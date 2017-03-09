@@ -1,26 +1,41 @@
-@import'google-homepage';
+// Grand Central Station
 
-body{
-background:none ;
+@import 'google-homepage';
+
+
+// First Frame
+svg{
+    width: 600px;
+    height: 400px;
 }
 
-#lunardog{
-    flex-wrap: wrap;
+img {
+    
+    opacity: .5;
+    transform: scale(.25) rotate(0);
+    width: 40%;
+    
+    transition: transform .5s;
 }
 
-#crescent {
-  justify-content: center;
-    width:100%;
+// Last Frame
+img:hover {
+    opacity: 1;
+    transform: scale(1.5) rotate(180deg);
 }
 
-#cherry1{
-  justify-content: flex-start;
-    flex-direction: column;
-    width:100%;
+// First Frame
+.line {
+     fill:none;
+     stroke:#8cff19;
+     stroke-width:30;
+     stroke-miterlimit:10;
+    
+    transition: stroke 1s;
 }
 
-#cherry2{
-   justify-content: flex-end;
-    flex-direction: row;
-    width:100%;
+// Last Frame
+.line:hover {
+    stroke: red;
 }
+
