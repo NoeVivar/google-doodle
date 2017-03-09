@@ -2,13 +2,29 @@
 
 /* Stage */
 
+
 #stage {
     position: relative;
-    background: url("https://media.giphy.com/media/TmT51OyQLFD7a/giphy.gif");
+    background: 
+        $bg0 : url("https://media.giphy.com/media/TmT51OyQLFD7a/giphy.gif");
+$bg1 :  url(https://s.yimg.com/uu/api/res/1.2/90bFC.3EpqpER2E4TWeI7A--/aD0yODI7dz01MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/cd/diminuendo/1.0/original/a44b650220fbfe0a2feb0afb5f1c3d755869e2f8.gif);
+$bg2 : url(http://bestanimations.com/Holidays/Fireworks/fireworks/ba-awesome-colorful-fireworks-animated-gif-image-s.gif);
+
     height: 300px;
     width: 600px;
 }
+.bg0 {
+  background: $bg0 no-repeat;
+  
+}
 
+.bg1 {
+  background: $bg1 no-repeat;
+}
+
+.bg2 {
+  background: $bg2 no-repeat;
+}
 
 
 /* DO NOT EDIT BELOW THIS LINE */
