@@ -20,18 +20,29 @@
 
 
 #crescent{
-    position: absolute;
-    width: 100%;
-    transform: none;
-    transition: transform .5s;
-    opacity: 1;
-    bottom: 30px;
-    left: 180px
+ transform: none;
+ transition: transform .5s;
+ opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:20%;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+}
+#crescent:hover{
+    transform: scale(1.5) rotate(360deg);
 }
 
-#crescent:hover{
-    transform: scale(1.5) rotate(0deg);
-}
+
 
 
 img  {
